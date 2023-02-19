@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+body{
+    background-color:  azure;
+}
+
+form label {
+    display: block;
+}
+.contact-form__inputs{
+    /* display: block; */
+    outline: none;
+    border: none;
+    border-bottom: 5px solid black;
+    /* border-radius: 4px; */
+    padding: 0 12px;
+    width: 350px;
+    height: 40px;
+    /* margin: 10px 0 15px 0; */
+    margin-bottom: 10px;
+}
+.contact-form__message textarea {
+    height: 120px;
+    width: 350px;
+}
+#contact-form-button{
+    width: 350px;
+    height: 50px;
+    padding: 16px 24px;
+    font-size: 14px;
+    line-height: 18.2px;
+    font-weight: 700;  
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+#errMessage{
+    color: red;
+    font-size: 1.6rem;
+    padding: 10px;
+}
