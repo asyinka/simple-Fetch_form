@@ -6,6 +6,7 @@
 h1{
     text-align: center;
     color: red;
+    margin: 10px 0;
 }
 body{
     background-color:  azure;
@@ -13,18 +14,21 @@ body{
 
 form label {
     display: block;
+    color: red;
 }
 .contact-form__inputs{
     /* display: block; */
     outline: none;
     border: none;
-    border-bottom: 5px solid black;
+    border-bottom: 5px dotted black;
     /* border-radius: 4px; */
     padding: 0 12px;
     width: 350px;
     height: 40px;
     /* margin: 10px 0 15px 0; */
     margin-bottom: 10px;
+    /* border-bottom: dotted; */
+
 }
 .contact-form__message textarea {
     height: 120px;
